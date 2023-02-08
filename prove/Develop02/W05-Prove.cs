@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 
-class Program
+class journal
 {
     class Entry
     {
@@ -11,7 +11,7 @@ class Program
         public DateTime Date { get; set; }
     }
 
-    static List<Entry> journal = new List<Entry>();
+    static List<Entry> journal1 = new List<Entry>();
     static string[] prompts = { "Who was the most interesting person I interacted with today?",
                                 "What was the best part of my day?",
                                 "How did I see the hand of the Lord in my life today?",
@@ -81,7 +81,7 @@ class Program
         string fileName = Console.ReadLine();
         using (StreamWriter writer = new StreamWriter(fileName))
         {
-            foreach (var entry in journal)
+            foreach (var entry in journal1)
             {
                 writer.WriteLine(entry.Prompt);
                 writer.WriteLine(entry.Response);
@@ -96,4 +96,5 @@ class Program
         Console.Write("\nEnter the file name: ");
         string fileName = Console.ReadLine();
         journal.Clear();
-        using (StreamReader reader = new
+        using (StreamReader reader = new);
+    }
