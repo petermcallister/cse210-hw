@@ -24,7 +24,7 @@ namespace ScriptureMemorizationGame
 
                 while (index < words.Length)
                 {
-                    Console.WriteLine("Press Enter to replace the next word with underscores...");
+                    Console.WriteLine("Press Enter to replace a word with underscores...");
                     Console.ReadLine();
 
                     int randomIndex = new Random().Next(index, words.Length);
