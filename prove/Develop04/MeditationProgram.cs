@@ -1,6 +1,6 @@
 using System;
 using System.Threading;
-//meditation2
+
 public class MeditationProgram : Meditation
 {
     public override void Breathe()
