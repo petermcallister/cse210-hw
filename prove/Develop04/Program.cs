@@ -20,6 +20,7 @@ public class Program
             Console.WriteLine("1. Breathing Activity");
             Console.WriteLine("2. Reflection Activity");
             Console.WriteLine("3. Listing Activity");
+            Console.WriteLine("4. Quit");
 
             int activity = int.Parse(Console.ReadLine());
 
@@ -30,19 +31,26 @@ public class Program
                     break;
                 case 2:
                     Console.WriteLine("Think of a time when you were successful or demonstrated strength.");
-                    Console.WriteLine("How are you different because of that expereince?");
-                    Console.WriteLine("What can you do to have more of those expereinces?");
+                    Console.WriteLine("How are you different because of that experience?");
+                    Console.WriteLine("What can you do to have more of those experiences?");
                     break;
                 case 3:
                     Console.WriteLine("List as many things as you can in a certain area of strength or positivity.");
                     Console.WriteLine("List as many things as you can on what you are not doing, but what you should be doing.");
                     Console.WriteLine("List as many things as you can on what you are doing that you should stop doing.");
-
+                    break;
+                case 4:
+                    Console.WriteLine("Thank you for meditating with us!");
+                    Console.ReadKey();
+                    return;
+                default:
+                    Console.WriteLine("Invalid option selected. Please choose again.");
                     break;
             }
 
             meditationProgram.Quote();
-            Thread.Sleep(1000);
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
         }
 
         Console.WriteLine("Meditation program ended. Press any key to exit...");
