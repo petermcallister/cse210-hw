@@ -31,13 +31,19 @@ public class Program
                     break;
                 case 2:
                     Console.WriteLine("Think of a time when you were successful or demonstrated strength.");
+                    Thread.Sleep(5000);
                     Console.WriteLine("How are you different because of that experience?");
+                    Thread.Sleep(5000);
                     Console.WriteLine("What can you do to have more of those experiences?");
+                    Thread.Sleep(5000);
                     break;
                 case 3:
                     Console.WriteLine("List as many things as you can in a certain area of strength or positivity.");
+                    Thread.Sleep(8000);
                     Console.WriteLine("List as many things as you can on what you are not doing, but what you should be doing.");
+                    Thread.Sleep(8000);
                     Console.WriteLine("List as many things as you can on what you are doing that you should stop doing.");
+                    Thread.Sleep(8000);
                     break;
                 case 4:
                     Console.WriteLine("Thank you for meditating with us!");
