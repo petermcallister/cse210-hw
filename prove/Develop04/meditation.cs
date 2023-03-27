@@ -1,5 +1,5 @@
 using System;
-//
+
 public abstract class Meditation
 {
     public abstract void Breathe();
