@@ -8,28 +8,28 @@ class Program
         // Create 3-4 videos
         var videos = new List<Video>()
         {
-            new Video("Funny Cats", "John Doe", 120),
-            new Video("Cooking with Jamie", "Jamie Oliver", 300),
-            new Video("Gardening Tips", "Jane Smith", 180),
-            new Video("Fitness for Beginners", "Joe Johnson", 240)
+            new Video("Eating a 30 inch meatball sub", "Meatball Mack", 120),
+            new Video("Cooking with Karen", "The Karen", 300),
+            new Video("Baking Pretzels", "Pretzel Master", 180),
+            new Video("Getting Big without Tren", "Tren Twins", 240)
         };
 
         // Add 3-4 comments for each video
-        videos[0].AddComment(new Comment("Alice", "This is hilarious!"));
+        videos[0].AddComment(new Comment("Alex", "This is hilarious!"));
         videos[0].AddComment(new Comment("Bob", "I can't stop watching it!"));
-        videos[0].AddComment(new Comment("Charlie", "My cat does the same thing!"));
+        videos[0].AddComment(new Comment("Charlie", "I can't believe he actually did that!"));
 
-        videos[1].AddComment(new Comment("David", "Great recipe, Jamie!"));
+        videos[1].AddComment(new Comment("David", "Great recipe!"));
         videos[1].AddComment(new Comment("Emma", "I'll definitely try this at home."));
-        videos[1].AddComment(new Comment("Frank", "I love your accent, Jamie!"));
+        videos[1].AddComment(new Comment("Frank", "I love your personality"));
 
-        videos[2].AddComment(new Comment("Grace", "Thanks for the tips, Jane!"));
-        videos[2].AddComment(new Comment("Henry", "I'm inspired to start my own garden."));
-        videos[2].AddComment(new Comment("Isabella", "What's the name of that flower?"));
+        videos[2].AddComment(new Comment("Grace", "Thanks for the tips!"));
+        videos[2].AddComment(new Comment("Henry", "I'm inspired to start my own pretzel shop!"));
+        videos[2].AddComment(new Comment("Isabella", "What yeast do you use?"));
 
-        videos[3].AddComment(new Comment("Jack", "I'm out of breath already!"));
-        videos[3].AddComment(new Comment("Katie", "I'll join your fitness class, Joe."));
-        videos[3].AddComment(new Comment("Liam", "Do you have any tips for back pain?"));
+        videos[3].AddComment(new Comment("Jack", "This saved my marriage!"));
+        videos[3].AddComment(new Comment("Katie", "I'll join your regimen!"));
+        videos[3].AddComment(new Comment("Liam", "How many calories do you eat in a day?"));
 
         // Iterate through the list of videos and display their information
         foreach (var video in videos)
