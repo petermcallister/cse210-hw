@@ -6,7 +6,7 @@ class Program
     static void Main(string[] args)
     {
         Address address1 = new Address("123 Main St", "Los Angeles", "CA", "USA");
-        Customer customer1 = new Customer("John Smith", address1);
+        Customer customer1 = new Customer("Joseph Smith", address1);
         List<Product> products1 = new List<Product>()
         {
             new Product("Product1", 1, 10.0, 2),
@@ -20,7 +20,7 @@ class Program
         Console.WriteLine();
 
         Address address2 = new Address("456 Main St", "Toronto", "ON", "Canada");
-        Customer customer2 = new Customer("Jane Doe", address2);
+        Customer customer2 = new Customer("Drew Dover", address2);
         List<Product> products2 = new List<Product>()
         {
             new Product("Product3", 3, 15.0, 3),
